@@ -1,0 +1,1 @@
+This repository demonstrates a race condition bug in a bash script. Two child processes concurrently increment a shared counter, resulting in an incorrect final count due to the race condition. The solution provides a mechanism to synchronize access to the shared counter, ensuring accurate results.
